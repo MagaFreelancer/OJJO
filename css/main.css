@@ -1,4 +1,4 @@
-.header__menu-left, .header__menu-right, .header__menu-right-links, .header__down, .content__nav, .content__nav-links {
+.header__menu-left, .header__menu-right, .header__menu-right-links, .header__down, .content__nav, .content__nav-links, .mailing__description-item {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -540,5 +540,118 @@ header {
 .videos__videos-small img {
   width: 100%;
   height: 100%;
+}
+
+.mailing {
+  background: url("../images/mailing/bc.png");
+  padding: 100px 400px 120px;
+}
+
+.mailing__text {
+  margin-bottom: 60px;
+}
+
+.mailing__text .subtitle,
+.mailing__text .title {
+  color: #fff;
+}
+
+.mailing__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.mailing__description-item {
+  margin-bottom: 15px;
+}
+
+.mailing__description-item svg {
+  margin-right: 20px;
+}
+
+.mailing__description-text {
+  color: #fff;
+  font-weight: 500;
+  font-size: 18px;
+  color: #FFFFFF;
+}
+
+.mailing__form {
+  padding: 14px 15px;
+  border: 1px solid #fff;
+}
+
+.mailing__form__bc {
+  background-color: #fff;
+  padding: 20px 22px;
+}
+
+.mailing__form-input {
+  background: 0;
+  border: 1px solid #D6D6D6;
+  padding: 15px 10px 14px 20px;
+  margin-right: 15px;
+  width: 200px;
+}
+
+.mailing__form-input::-webkit-input-placeholder {
+  font-family: 'Gilroy';
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: rgba(51, 51, 51, 0.5);
+}
+
+.mailing__form-input:-ms-input-placeholder {
+  font-family: 'Gilroy';
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: rgba(51, 51, 51, 0.5);
+}
+
+.mailing__form-input::-ms-input-placeholder {
+  font-family: 'Gilroy';
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: rgba(51, 51, 51, 0.5);
+}
+
+.mailing__form-input::placeholder {
+  font-family: 'Gilroy';
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: rgba(51, 51, 51, 0.5);
+}
+
+.mailing__form-btn {
+  font-family: 'Gilroy';
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  padding: 14px 35px;
+  background-color: #333333;
+  -webkit-transition: background-color .2s linear, color .2s linear;
+  transition: background-color .2s linear, color .2s linear;
+  outline: 0;
+  cursor: pointer;
+  border: 0;
+}
+
+.mailing__form-btn:hover {
+  background-color: #fff;
+  color: #333;
 }
 /*# sourceMappingURL=main.css.map */
